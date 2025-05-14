@@ -1,0 +1,5 @@
+jobs:
+  build:
+    runs-on: self-hosted  # Будет запускаться на вашем MacBook
+    steps:
+      - run: echo "Hello from your Mac!"
