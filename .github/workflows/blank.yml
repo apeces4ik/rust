@@ -1,5 +1,7 @@
+name: Test Runner
+on: [push]
 jobs:
-  build:
-    runs-on: self-hosted  # Будет запускаться на вашем MacBook
+  test:
+    runs-on: self-hosted
     steps:
-      - run: echo "Hello from your Mac!"
+      - run: echo "Hello from self-hosted runner!"
